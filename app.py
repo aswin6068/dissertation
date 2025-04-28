@@ -27,9 +27,9 @@ st.set_page_config(page_title="Vision Assistant", layout="centered")
 nlp = spacy.load("en_core_web_sm")
 
 # Constants
-groq_api_key = "YOUR_GROQ_API_KEY_HERE"
-API_KEY = "YOUR_GOOGLE_API_KEY"
-CSE_ID = "YOUR_CUSTOM_SEARCH_ENGINE_ID"
+groq_api_key = "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"
+API_KEY = "AIzaSyAZBNUbKmVeHhRAaLmiyOVZ1GKfxBd56Xk"
+CSE_ID = "d7eb56ceb292e4479"
 dataset_file = "image_descriptions.csv"
 dataset_path = os.path.join(os.getcwd(), dataset_file)
 
