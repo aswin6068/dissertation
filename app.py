@@ -189,7 +189,11 @@ if uploaded_image:
             description = generate_vision_explanation(image_bytes)
             obstacle_info = detect_obstacles(description)
             product_name = extract_product_name(description)
-            feedback = get_product_feedback(product_name)
+            try:
+                feedback = get_product_feedback(product_name)
+            except Exception as e:
+                feedback = f"⚠️ Failed to fetch feedback: {e}"
+            # feedback = get_product_feedback(product_name)
             final_message = f"Description: {description}\n{obstacle_info}\nFeedback: {feedback}"
             st.success("Analysis Complete!")
             st.write(final_message)
