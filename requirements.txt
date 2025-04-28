@@ -1,15 +1,17 @@
 streamlit
-pandas
+pandas==2.2.2
 nltk
-spacy
+spacy==3.7.2
 textblob
-scikit-learn
+scikit-learn==1.4.2
 gtts
 joblib
-matplotlib
+matplotlib==3.8.4
 groq
 google-api-python-client
 newspaper3k
-python-dotenv
 lxml_html_clean
+python-dotenv
+
+# Install English model for Spacy
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
