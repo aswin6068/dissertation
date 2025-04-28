@@ -1,0 +1,13 @@
+streamlit
+pandas
+nltk
+spacy
+textblob
+scikit-learn
+gtts
+joblib
+matplotlib
+groq
+google-api-python-client
+newspaper3k
+python-dotenv
