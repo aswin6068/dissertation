@@ -11,3 +11,4 @@ groq
 google-api-python-client
 newspaper3k
 python-dotenv
+lxml_html_clean
