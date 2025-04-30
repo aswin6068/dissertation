@@ -2,6 +2,8 @@ streamlit
 pandas==2.2.2
 nltk
 spacy==3.7.2
+thinc==8.1.12
+numpy==1.24.4
 textblob
 scikit-learn==1.4.2
 gtts
@@ -13,5 +15,5 @@ newspaper3k
 lxml_html_clean
 python-dotenv
 
-# Install English model for Spacy
+# Install English model for Spacy (works with spacy==3.7.2)
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
