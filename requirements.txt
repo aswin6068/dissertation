@@ -1,8 +1,8 @@
 streamlit
 pandas==2.2.2
 nltk
-spacy==3.6.1
-thinc==8.1.12
+spacy==3.5.4
+thinc==8.1.10
 numpy==1.23.5
 textblob
 scikit-learn==1.4.2
@@ -12,8 +12,8 @@ matplotlib==3.8.4
 groq
 google-api-python-client
 newspaper3k
-lxml_html_clean
+lxml
 python-dotenv
 
-# Download the compatible spaCy English model
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
+# Compatible spaCy model
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
